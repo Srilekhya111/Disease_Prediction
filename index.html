@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script src="script.js ">
+    </script>
+
+
+
+    <div class="main-container" id="main">
+        <div class="description-container">
+
+            <div class="profile-section">
+                <div class="profile-pic-container">
+                    <div class="profile-pic">
+                        <img class='student-pic' src="https://herobot.app/wp-content/uploads/2022/11/AI-bot-1.jpg" alt="ProfilePic" />
+                    </div>
+                </div>
+                <div class="profile-info-container">
+                    <h3 class="name">Care Companion</h3>
+                    <p class="bot-extra-info">Your Supportive and Caring Virtual Companion</p>
+                </div>
+            </div>
+            <div class="project-details-container">
+                <div class="project-heading">
+                    <h1>We Provide <span class="auto-type"></span></h1>
+
+                </div>
+                <div class="project-description">
+                    <p class="description"> Welcome to the future of personalized healthcare support with Care Companion A, your very own healthcare chatbot! We understand that navigating the complexities of healthcare can sometimes be overwhelming and time-consuming.
+                        <br>That 's why we've developed Care Companion.A revolutionary digital assistant designed to provide you with instant, reliable, and compassionate healthcare information and guidance whenever you need it.</p>
+                </div>
+            </div>
+
+
+            <div class="footer-section footer-desktop">
+                <div class="footer-info">
+                    <h1 class="names">Made with <span class="heart-beat"> ❤️</span> By Jaganath , Gurudatta , Narendra</h1>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="chat-bot-container">
+
+            <gradio-app src="https://segadeds-medical-diagnosis.hf.space"></gradio-app>
+            <iframe src="https://segadeds-medical-diagnosis.hf.space" frameborder="0" width="850" height="450"></iframe>
+
+        </div>
+        <div class="footer-section footer-mobile">
+            <div class="footer-info">
+                <h1 class="names">Made with <span class="heart-beat"> ❤️</span> By Jaganath , Gurudatta , Narendra</h1>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Personalised Assistantance", "24/7 Availability", "Health Alerts"],
+            typedSpeed: 10,
+            backspeed: 10,
+            loop: true
+        })
+    </script>
+</body>
+
+</html>
